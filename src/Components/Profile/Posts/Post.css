@@ -1,0 +1,81 @@
+/* .Post-space {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around ;
+} */
+
+
+.Post-space{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+
+.insta_post {
+    width: 30%;
+    aspect-ratio: 1/1;
+    margin-bottom: 25px;
+    border-style: solid;
+    border-width: 1px   ;
+    border-color:rgb(211, 208, 208);
+}
+
+/* .insta_post_div {
+    overflow: hidden;
+    width: 30% ;
+    padding-bottom: 25px;
+    padding-right: 2px;
+} */
+
+/* .insta_post{
+    height: 250px;
+    width: 250px;
+} */
+
+
+.Profile_Navigation{
+display: flex;
+align-items: center;
+/* background-color: thistle; */
+transform: translateX(28%) translateY(-18.5px);
+z-index: 10;
+}
+
+.posts-icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 65px;
+    /* background-color:teal; */
+    border-style: solid;
+    border-width: 1px 0 0 0  ;
+    border-color:rgb(8, 8, 8);
+}
+
+.posts-icon p {
+    font-size: 13.5px;
+    transform: translateX(5px) translateY(7px) ;
+}
+
+@media (max-width : 804px) {
+
+    .Post-space{
+        /* display:unset !important; */
+    /* justify-content: unset !important; */
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    /* background-color: teal; */
+    align-content: center;
+    justify-items: center;
+    grid-column-gap: 2px;
+    
+    
+    }
+
+    .insta_post{
+        width: 99%;
+        margin: 3px;
+    }
+}
