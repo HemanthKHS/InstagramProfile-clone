@@ -1,0 +1,406 @@
+.profile_picture_img{
+    position: relative;
+    top:15% ;
+    height: 163px;
+    width: 163px;
+    border-radius:100px ;
+    border-style: solid;
+    border-color: rgb(223, 217, 217);
+    border-width: 1px;
+    transform: translateY(-53px) translateX(78px);
+
+}
+
+html ,body{
+    overflow-x: hidden;
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+
+.profile_picture{
+    /* background-color:orange; */
+    /* align-self: center; */
+    /* transform: translateY(-50px) translateX(81PX); */
+}
+
+.Profile_Top {
+    transform: translateY(19px);
+    display: grid;
+    /* align-content: center;
+    justify-content: center;
+    align-items: center; */
+
+    grid-template-columns: 3fr 1.7fr 4fr;
+    grid-template-rows:0.1fr 0.1fr 3fr ;
+
+    margin: 18px 0px;
+    height: 335px;
+    border-style: solid;
+    border-width: 0 0 1px 0  ;
+    border-color:rgb(211, 208, 208);
+}
+
+.profile_picture{
+    grid-row-start: 1;
+    grid-row-end: 4;
+}
+
+.Upload_post{
+    /* background-color: orchid; */
+    grid-column-start: 3;
+    grid-column-end: 6;
+    transform: translateX(-40px) translateY(2px);
+}
+
+.UserName{
+    font-Size :"28px" ;
+    font-Weight:"300";
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    /* background-color: blue; */
+}
+
+.Profile-Numbers{
+    /* align-self: start; */
+    justify-content: space-evenly;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 2;
+    grid-column-end: 4;
+    /* background-color: blueviolet; */
+    padding-top: 10px;
+}
+
+.Profile-Bio{
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    /* background-color: cadetblue; */
+}
+
+
+
+
+.UserName{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    /* background-color: teal; */
+    /* width: 500px;
+    margin-top: 15px;
+    height: 50px; */
+    /* display: flex; */
+    justify-items: space-between;
+    align-content: center;
+    
+
+}
+
+.Upload_post{
+    align-self: baseline;
+}
+
+@media( max-width : 780px ){
+    
+    .profile_picture_img{
+       
+        /* position: unset !important; */
+        /* position: static;
+        top: 0%; */
+        transform: translateX(18px);
+        height: 85px;
+        width: 85px;
+        border-radius:100px ;
+        border-style: solid;
+        border-color: rgb(223, 217, 217);
+        border-width: 1px;
+    
+    }
+    /* .Profile_Data {
+        width :50vw;
+   background-color: teal;
+        position: unset !important;
+    } */
+     
+    /* .profile_picture{
+        width: 10%;
+    } */
+
+    .Profile_Top {
+        display: grid;
+        /* align-content: center;
+        justify-content: center;
+        align-items: center; */
+    
+        grid-template-columns: 1.6fr 0.8fr 4fr;
+        grid-template-rows:0.1r 2fr 5fr ;
+    
+        margin: 18px 0px;
+        height: 300px;
+        border-style: solid;
+        border-width: 0 0 1px 0  ;
+        border-color:rgb(211, 208, 208);
+    }
+
+    .profile_picture{
+        grid-row-start: 1;
+        grid-row-end: 3;
+        transform: translateY(-27px);
+    }
+    
+    .Upload_post{
+        padding-top: 4px;
+        /* background-color: orchid; */
+        grid-row-start: 2;
+        grid-row-end: 3;
+        grid-column-start: 3;
+        grid-column-end: 4;
+        transform: translateX(-25px) translateY(-5px);
+    }
+    
+    .UserName{
+        grid-column-start: 2;
+        grid-column-end: 4;
+        grid-row-start: 1;
+        grid-row-end: 2;
+        /* background-color: blue; */
+        transform: translateY(-8px);
+    }
+    
+    .Profile-Numbers{
+        /* align-self: start; */
+        padding-top: 4px;
+        justify-content: space-evenly;
+        grid-row-start: 2;
+        grid-row-end: 3;
+        grid-column-start: 2;
+        grid-column-end: 3;
+        transform: translateX(5px) translateY(-3px);
+        /* background-color: blueviolet; */
+
+    }
+
+
+    .Profile-Bio{
+        grid-column-start: 1;
+        grid-column-end: 4;
+        grid-row-start: 3;
+        grid-row-end: 4;
+        /* background-color: cadetblue; */
+        padding-left: 20px;
+        padding-top: 10px;
+    }
+
+    
+    
+
+    html ,body{
+        width: 100vw;
+        margin:0;
+        /* background-color: blanchedalmond; */
+        overflow-x: hidden;
+    }
+}
+@media(max-width:730px){
+    .Upload_post{
+        transform: translateX(0px) translateY(-5px);
+    }
+}
+
+@media(max-width:550px) and (min-width:426px){
+    .Profile_Top{
+        grid-template-columns: 2.1fr  1.6fr 4fr;
+    }
+
+    .Upload_post{
+        transform: translateX(-20px) translateY(-5px);
+    }
+    
+}
+
+@media(max-width:426px){
+    
+    .Profile_Top{
+        grid-template-columns: 2.7fr  1.5fr 4fr;
+    }
+
+    .profile_picture{
+        padding-left: 2px;
+        transform: translateY(-25px);
+    }
+
+    .Upload_post{
+        transform: translateX(-140px), translateY(-5px);
+    }
+
+}
+
+@media(max-width:317px){
+
+    .profile_picture_img{
+        height: 70px;
+        width: 70px;
+    }
+    
+}
+
+
+
+
+
+/* .Profile_Data {
+    display: flex;
+    justify-content: space-around;
+    margin: 18px 0px;
+
+} */
+
+@media ( width:768px)
+and (height:1024px){
+   
+    .profile_picture_img{
+        position: relative;
+        top:15% ;
+        height: 150px;
+        width: 153px;
+        border-radius:100px ;
+        border-style: solid;
+        border-color: rgb(223, 217, 217);
+        border-width: 1px;
+        transform: translateY(-3px) translateX(78px);
+    
+    }
+    
+    
+    
+    
+    
+    .Profile_Top {
+        transform: translateY(32px);
+        display: grid;
+        /* align-content: center;
+        justify-content: center;
+        align-items: center; */
+    
+        grid-template-columns: 4fr 1.7fr 4fr;
+        grid-template-rows:0.1fr 0.1fr 3fr ;
+    
+        margin: 18px 0px;
+        height: 330px;
+        border-style: solid;
+        border-width: 0 0 1px 0  ;
+        border-color:rgb(211, 208, 208);
+    }
+    
+    .profile_picture{
+        grid-row-start: 1;
+        grid-row-end: 4;
+    }
+    
+    .Upload_post{
+        /* background-color: orchid; */
+        grid-column-start: 3;
+        grid-column-end: 6;
+        transform: translateX(-55px) translateY(3px);
+    }
+    
+    .UserName{
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 1;
+        grid-row-end: 2;
+        /* background-color: blue; */
+    }
+    
+    .Profile-Numbers{
+        /* align-self: start; */
+        justify-content: space-evenly;
+        grid-row-start: 2;
+        grid-row-end: 3;
+        grid-column-start: 2;
+        grid-column-end: 4;
+        /* background-color: blueviolet; */
+        padding-top: 10px;
+        transform: translateX(0px);
+    }
+    
+    .Profile-Bio{
+        grid-column-start: 2;
+        grid-column-end: 4;
+        grid-row-start: 3;
+        grid-row-end: 4;
+        transform:translateY(-5px) translateX(-20px);
+    }
+    
+    
+    
+    
+    .UserName{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        justify-items: space-between;
+        align-content: center;
+        
+    
+    }
+    
+    .Upload_post{
+        align-self: baseline;
+    }
+    
+
+
+}
+
+@media(max-width:380px){
+    
+        .Profile_Top {
+            
+            grid-template-columns: 4fr 1.9fr 4fr;
+    }
+    .Upload_post{
+        transform: translateX(10px) translateY(-5px);
+    }
+
+    
+}
+
+@media(max-width:311px){
+    .Profile-Bio{
+        font-size: 12px;
+    }
+
+    .Profile_Top {
+            
+        grid-template-columns: 3.7fr 2.2fr 4fr;
+}
+.profile_picture{
+    /* transform: translateX(15px); */
+    margin-top: 5px;
+}
+
+}
+
+@media(max-width:280px){
+
+    .Profile_Top {
+            
+        grid-template-columns: 3.5fr 2.5fr 4fr;
+}
+
+    .profile_picture_img{
+        width: 50px;
+        height: 50px;
+    }
+    .UserName{
+        font-size: 18px;
+    }
+
+    .profile_picture{
+        margin-top: 15px;
+    }
+}
