@@ -11,7 +11,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## 1.npm install
 ## 2.npm start
-## 3.npm build -  for pulishing
+## 3.npm run build      -> for publishing website
 
 
 
