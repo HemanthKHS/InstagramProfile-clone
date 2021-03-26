@@ -1,0 +1,52 @@
+
+/* .Upload-button{
+    content: 'Select some files';
+  display: inline-block;
+  background: linear-gradient(top, #f9f9f9, #e3e3e3);
+  border: 1px solid #999;
+  border-radius: 3px;
+  padding: 5px 8px;
+  outline: none;
+  white-space: nowrap;
+  -webkit-user-select: none;
+  cursor: pointer;
+  text-shadow: 1px 1px #fff;
+  font-weight: 700;
+  font-size: 10pt;
+} */
+.Upload-button-label{
+    cursor: pointer;
+    border-radius: 4px;
+    border-style: solid;
+    border-width: 1px   ;
+    border-color:rgb(211, 208, 208);
+    font-weight: 500;
+    /* background-color: teal; */
+    justify-content: center;
+    align-items: center;
+    width: 10px;
+    padding:12px;
+    padding-top: 2px;
+    padding-bottom: 5px;
+}
+
+.Upload-button-label:hover{
+  background-color: rgb(238, 234, 234);
+  /* background-color: darkorchid; */
+}
+
+input{
+    height: 0;
+    width: 0;
+    opacity: 0;
+  }
+
+  
+  @media ( width:768px)
+and (height:1024px){
+  .Upload-button-label:hover{
+    pointer-events: none;
+    background-color: rgb(238, 234, 234);
+    /* background-color: darkorchid; */
+  }
+}

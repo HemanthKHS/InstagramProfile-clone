@@ -1,0 +1,13 @@
+.Profile {
+    background-color: #fafafa ;
+    border: black ;
+    min-height: 100vw;
+    padding-top: 45px;
+    overflow: hidden;
+}
+
+#link{
+    font-weight:500;
+     
+}
+
