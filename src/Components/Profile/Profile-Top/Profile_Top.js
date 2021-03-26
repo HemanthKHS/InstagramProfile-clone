@@ -37,7 +37,7 @@ function Profile_Top (){
                 as a part of <span style={{fontWeight:"bold"}}>OMBRE task</span><br/>
                 created using react.js ,firebase(storage, firestore) <br/>
                 check Gitub link below for code <br/>
-                link : <a href="" id='link' >www.github.com</a> 
+                link : <a href="https://github.com/HemanthKHS/InstagramProfile-clone" target="_blank" id='link' >https://github.com/HemanthKHS/In.....</a>
                 </p>
             </div>
             
