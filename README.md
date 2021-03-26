@@ -7,6 +7,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 # 
 
+## After Downloading the code locally, change directory to folder location.(make sure you have node and react installed)
+
 ## 1.npm install
 ## 2.npm start
 ## 3.npm build -  for pulishing
